@@ -1,0 +1,191 @@
+
+
+@media #{$large-up} { 
+	section.container {
+  padding-top: 70px;
+  	}
+	#the-label{
+		margin-bottom: -360px;
+			
+			.title,.entry-content{top: -250px;}
+	}
+	#our-wines{
+		margin-top: 50px;
+	}
+}
+
+.main-heading{
+	  width: 50%;
+  margin: 200px 25%;
+}
+.bold-line {
+				  text-align: center;
+				  display: inline-block;
+				  font-weight: bolder;
+				  text-transform: uppercase;
+				  border-bottom: 2px solid black;
+				  margin: 20px auto;
+			}
+
+section.page{
+	.title{
+		position: relative;
+
+		h1.entry-title{
+		color: transparent;
+		position: absolute;
+		/* background-image: url(../assets/titles/about.png); */
+		}
+		
+		.heading{
+			margin-bottom: 40px;
+			max-width: 220px;
+		}
+		.heading-image{
+			max-width: 250px;
+			  margin-bottom: 0px;
+			  @media #{$medium} {margin-bottom: 0px;}
+			  @media #{$large-up} {margin-bottom: -50px;}
+			  
+		}
+	}
+	.entry-content{
+		p {
+			margin-left: 20px;
+			font-size: 14px;
+			i{
+				text-align: center;
+				display: inline-block;
+				margin-top: 20px;
+				margin-bottom: -20px;
+			}
+			.bold-line {
+				  text-align: center;
+				  display: inline-block;
+				  font-weight: bolder;
+				  text-transform: uppercase;
+				  border-bottom: 2px solid black;
+				  margin: 20px auto;
+			}
+		}
+	}
+}
+
+#winemaker{
+	.title{
+		.heading{
+			margin-bottom: 0px;
+			max-width: 220px;
+			@media #{$large-up} { 
+			position: absolute;
+			top: 35px;
+			left: 235px;
+			}
+		}
+		.heading-image{
+			float: right;
+			@media #{$large-up} { 
+			float: left;
+			}
+			max-width: 250px;
+			  margin-bottom: 0px;
+		}
+		p {
+			font-size: 14px;
+		}
+	}
+	
+	.paragraph {
+		-webkit-column-count: 1;
+		-moz-column-count: 1;
+		column-count: 1;
+		-webkit-column-width: 150px;
+		-moz-column-width: 150px;
+		column-width: 150px;
+		-webkit-column-gap: 1em;
+		-moz-column-gap: 1em;
+		column-gap: 1em;
+		font-size: 14px;
+		margin-top: 0px;
+		margin-bottom: 50px;
+		@media #{$large-up} {	  min-height: 400px;
+			
+			margin-top: 200px;
+			-webkit-column-count: 3;
+		-moz-column-count: 3;
+		column-count: 3;
+		margin-bottom: 0px;
+		}
+	}
+}
+#news-feed{
+	margin-top: 150px;
+	.title{
+		.heading{
+			margin-bottom: 0px;
+			max-width: 220px;
+			@media #{$large-up} { 
+			position: absolute;
+			top: 35px;
+			left: 235px;
+			}
+		}
+		.heading-image{
+			max-width: 250px;
+			  margin-bottom: 0px;
+			 float: right;
+			@media #{$large-up} { 
+			float: left;
+			}
+		}
+		p {
+			font-size: 14px;
+		}
+	}
+	
+	/* FORM */
+	.ninja-forms-required-items {
+		display: none;
+  	}
+	input#ninja_forms_field_5 {
+		background-color: white;
+		width: 100%;
+		text-transform: uppercase;
+		font-size: 12px;
+		line-height: 24px;
+		box-shadow: none;
+		border: 1px solid black;
+		}
+	input#ninja_forms_field_1, input#ninja_forms_field_2 {
+  border: none;
+  border-bottom: 1px solid black;
+  box-shadow: none;
+  padding-left: 0px;
+}
+}
+@media #{$large-up} {
+	ul.juicer-feed.white.loaded {
+		margin-top: 220px;
+	}
+}
+.juicer-feed {
+	  max-height: 100%;
+	*{
+	font-size: 12px !important;
+	letter-spacing: 1px;
+	font-family: Raleway;
+	}
+	.referral {
+	  	display: none !important;
+	}
+	.referral+.galcolumn {
+ 		margin-top: 0px;
+ 	}
+ 	.galcolumn{
+	 	  background: white;
+ 	}
+
+}
+.juicer-feed.white li.feed-item{
+	 	padding-top: 0px !important;
+ 	}

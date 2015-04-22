@@ -8,6 +8,9 @@ register_nav_menus(array(
 	'top-bar-l' => 'Left Top Bar', // registers the menu in the WordPress admin menu editor
 	'top-bar-r' => 'Right Top Bar',
 	'mobile-off-canvas' => 'Mobile',
+	'top-bar-lWOO' => 'Left Top BarWOO', // registers the menu in the WordPress admin menu editor
+	'top-bar-rWOO' => 'Right Top BarWOO',
+	'mobile-off-canvasWOO' => 'MobileWOO',
 ));
 
 
@@ -93,6 +96,75 @@ if ( ! function_exists( 'foundationpress_add_menuclass' ) ) {
 	    return preg_replace( $find, $replace, $ulclass, 1 );
 	}
 	add_filter( 'wp_nav_menu','foundationpress_add_menuclass' );
+}
+
+
+/* HASTGAGMOD */
+/**
+ * Left top bar WOO
+ * http://codex.wordpress.org/Function_Reference/wp_nav_menu
+ */
+if ( ! function_exists( 'foundationpress_top_bar_lWOO' ) ) {
+	function foundationpress_top_bar_lWOO() {
+	    wp_nav_menu(array(
+	        'container' => false,                           // remove nav container
+	        'container_class' => '',                        // class of container
+	        'menu' => '',                                   // menu name
+	        'menu_class' => 'top-bar-menu left',            // adding custom nav class
+	        'theme_location' => 'top-bar-lWOO',                // where it's located in the theme
+	        'before' => '',                                 // before each link <a>
+	        'after' => '',                                  // after each link </a>
+	        'link_before' => '',                            // before each link text
+	        'link_after' => '',                             // after each link text
+	        'depth' => 5,                                   // limit the depth of the nav
+	        'fallback_cb' => false,                         // fallback function (see below)
+	        'walker' => new Foundationpress_Top_Bar_Walker()
+	    ));
+	}
+}
+
+/**
+ * Right top bar
+ */
+if ( ! function_exists( 'foundationpress_top_bar_rWOO' ) ) {
+	function foundationpress_top_bar_rWOO() {
+	    wp_nav_menu(array(
+	        'container' => false,                           // remove nav container
+	        'container_class' => '',                        // class of container
+	        'menu' => '',                                   // menu name
+	        'menu_class' => 'top-bar-menu right',           // adding custom nav class
+	        'theme_location' => 'top-bar-rWOO',                // where it's located in the theme
+	        'before' => '',                                 // before each link <a>
+	        'after' => '',                                  // after each link </a>
+	        'link_before' => '',                            // before each link text
+	        'link_after' => '',                             // after each link text
+	        'depth' => 5,                                   // limit the depth of the nav
+	        'fallback_cb' => false,                         // fallback function (see below)
+	        'walker' => new Foundationpress_Top_Bar_Walker()
+	    ));
+	}
+}
+
+/**
+ * Mobile off-canvas
+ */
+if ( ! function_exists( 'foundationpress_mobile_off_canvasWOO' ) ) {
+	function foundationpress_mobile_off_canvasWOO() {
+	    wp_nav_menu(array(
+	        'container' => false,                           // remove nav container
+	        'container_class' => '',                        // class of container
+	        'menu' => '',                                   // menu name
+	        'menu_class' => 'off-canvas-list',              // adding custom nav class
+	        'theme_location' => 'mobile-off-canvasWOO',        // where it's located in the theme
+	        'before' => '',                                 // before each link <a>
+	        'after' => '',                                  // after each link </a>
+	        'link_before' => '',                            // before each link text
+	        'link_after' => '',                             // after each link text
+	        'depth' => 5,                                   // limit the depth of the nav
+	        'fallback_cb' => false,                         // fallback function (see below)
+	        'walker' => new Foundationpress_Offcanvas_Walker()
+	    ));
+	}
 }
 
 ?>

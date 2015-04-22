@@ -33,24 +33,28 @@
 	<?php do_action( 'foundationpress_after_body' ); ?>
 	
 	<div class="off-canvas-wrap" data-offcanvas>
-	<div class="inner-wrap">
+	<div  class="inner-wrap">
 	
 	<?php do_action( 'foundationpress_layout_start' ); ?>
-	
-	<nav class="tab-bar show-for-small-only">
-		<section class="left-small">
+	<style>
+	.fixxed{position: fixed; z-index:99999;}
+	</style>
+	<div id="skrollr-body">
+	<nav class="tab-bar show-for-small-only fixxed" style="z-index:99999; width:100%">
+		<section class="left-small fixxed">
 			<a class="left-off-canvas-toggle menu-icon" href="#"><span></span></a>
 		</section>
-		<section class="middle tab-bar-section">
+		<section class="middle tab-bar-section fixxed">
 			
 			<h1 class="title"><?php bloginfo( 'name' ); ?></h1>
 
 		</section>
 	</nav>
-
+	
 	<?php get_template_part( 'parts/off-canvas-menu' ); ?>
 
 	<?php get_template_part( 'parts/top-bar' ); ?>
+	
 
-<section class="container" role="document">
+<section  class="container" role="document">
 	<?php do_action( 'foundationpress_after_header' ); ?>
