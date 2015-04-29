@@ -42,7 +42,7 @@ foreach ( $terms as $term ) { echo $term->name; }
 
 function get_vineyard(){
 $terms = get_the_terms( $product->ID, 'pa_vineyard');
-foreach ( $terms as $term ) { echo $term->name; }
+foreach ( $terms as $term ) { if($term){echo $term->name;} }
 }
 
 function get_variety(){
