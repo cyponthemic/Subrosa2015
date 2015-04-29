@@ -21,7 +21,9 @@
 			<span class="bold-line">Adam Louder</span> <br>
 			loves to explore the art and intricacies of all things wine.
 			In 2013, Adam returned home to the Grampians wine region to make wine with the cool climate grapes he prefers,<br>
-			<span class="bold-line">Shiraz</span>
+			<span class="bold-line">Shiraz.</span><br>
+			SubRosa wines are crafted with passion, inspired and influenced by the rugged Grampians and Pyrenees ranges of Victoria. Carefully nurtured, SubRosa wines are created to share with friends and food.
+			
 			<p>
 		</div>
 	</div>
@@ -39,8 +41,9 @@
 			
 		<div class="entry-content right medium-8 large-4 large-offset-1 columns">
 			<p>
-			SubRosa is latin for under the rose . In ancient times, a rose was hung over the table as a mark of secrecy. What was said or happened around the table, stayed at the table.<br>
-			The SubRosa sketch was drawn by artist Janette Lucas. (janettelucas.com)
+			SubRosa is latin for <i>under the rose</i>. In ancient times, a rose was hung over the table as a mark of secrecy.<br>
+			What was said or happened around the table, stayed at the table.<br>
+			The SubRosa sketch was conceptualised by Adam’s imagination and drawn by friend and artist Janette Lucas. (janettelucas.com)
 			<p>
 		</div>
 	</div>
@@ -68,7 +71,7 @@
 			
 			Adam’s dedication to fine winemaking was rewarded in 2011 when he was approached by one of Napa Valley’s most prestigious cult wineries Araujo Estate (acquired by Chateau Latour in 2013). During Adam’s time as harvest winemaker (2011 - 2014) Wine Spectator magazine rated the Araujo Estate flagship Cabernet Sauvignon as one of the most collectable wines in the world. <br>  <br>
 			
-			In 2015, after 19 years working in vineyards and wineries over 27 harvests in three continents, Adam launched SubRosa - wine made with the greatest care and dedication from high quality Grampians and Pyrenees grapes.
+			In 2015, after 19 years working in vineyards and wineries over 28 harvests in five regions and three continents, Adam launched SubRosa - wine made with instinct and passion from high quality Grampians and Pyrenees grapes.
 		</div>
 	</div>
 	
