@@ -3,7 +3,7 @@
 	<p style="display:inline-block;" >Contact :</p>
 	<li class="fa fa-envelope-o" style="display:inline-block; color:black !important;"><script language="JavaScript">// <![CDATA[
 			var username = "info";
-			var hostname = "subrosawine.com";
+			var hostname = "subrosawine.com.au";
 			var linktext = username + "@" + hostname ;
 			document.write("<a href='" + "mail" + "to:" + username + "@" + hostname + "'>" + "  " + linktext + "</a>");
 			// ]]></script>

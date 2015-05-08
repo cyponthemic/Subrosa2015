@@ -37,7 +37,7 @@ if ( 0 == ( $woocommerce_loop['loop'] - 1 ) % $woocommerce_loop['columns'] || 1 
 if ( 0 == $woocommerce_loop['loop'] % $woocommerce_loop['columns'] )
 	$classes[] = 'last';
 ?>
-<div <?php post_class( $classes.' small-12 large-6 columns'); ?>>
+<div <?php post_class( $classes.' small-12 large-6 left product-container columns'); ?>>
 	<div class="row">
 		<div class="medium-5 large-5 thumb-container columns">
 		
