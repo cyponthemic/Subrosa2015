@@ -147,7 +147,7 @@ section.page{
 	.ninja-forms-required-items {
 		display: none;
   	}
-	input#ninja_forms_field_5 {
+	.mc4wp-form input.submit {
 		background-color: white;
 		width: 100%;
 		text-transform: uppercase;
@@ -156,7 +156,7 @@ section.page{
 		box-shadow: none;
 		border: 1px solid black;
 		}
-	input#ninja_forms_field_1, input#ninja_forms_field_2 {
+	.mc4wp-form input.field {
   border: none;
   border-bottom: 1px solid black;
   box-shadow: none;
