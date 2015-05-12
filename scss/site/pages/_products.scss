@@ -1,7 +1,4 @@
-.product-container {
-	margin-top: 20px;
-	max-height: 480px;
-}
+
 
 .thumb-container {
 	text-align: center;
@@ -10,7 +7,11 @@
 		width: auto;
 	}
 }
-@media #{$large-up} { 
+@media #{$large-up} {
+.product-container {
+	margin-top: 20px;
+	max-height: 480px;
+} 
 .thumb-container {
 	text-align: center;
 	img{

@@ -163,6 +163,14 @@ section.page{
   padding-left: 0px;
 }
 }
+.mc4wp-alert.mc4wp-success {
+  padding: 20px;
+  color: white;
+  margin-top: 20px;
+  background: #67cc4b;
+  font-weight: 800;
+  font-size: 15px;
+}
 @media #{$large-up} {
 	ul.juicer-feed.white.loaded {
 		margin-top: 220px;
