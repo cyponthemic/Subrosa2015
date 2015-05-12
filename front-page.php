@@ -113,7 +113,7 @@
 		<div class="title large-3 columns">
 			<img class="heading-image" src="<?php echo get_stylesheet_directory_uri() ;?>/assets/img/adamlouder.jpg">
 			<img class="heading" src="<?php echo get_stylesheet_directory_uri() ;?>/assets/titles/news.png">
-			<h1 class="entry-title">Winemaker</h1>
+			<h1 class="entry-title">News Feed</h1>
 			<p>
 				<span class="bold-line">Follow us on instagram</span><br>
 				<li class="fa fa-instagram" style="display:inline-block; color:black !important;">
@@ -126,7 +126,7 @@ Name<br>
 				<button class="small-12">Submit</button>
 -->
 			<p>
-			<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 1 ); }?>
+			<?php echo do_shortcode( "[mc4wp_form]" ) ?>
 		</div>
 		<div class="  large-9 columns">
 			<?php juicer_feed('name=subrosa'); ?>
