@@ -23,8 +23,7 @@
 
 Liquor Licence No. 36136320<br>
 
-
-Copyright © 2015 www.subrosawine.com - All Rights Reserved
+Copyright © 2015 www.subrosawine.com - All Rights Reserved - Designed by Alex Chavet
 		</p>
 	</div>
 	

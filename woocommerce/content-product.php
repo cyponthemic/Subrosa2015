@@ -56,7 +56,7 @@ if ( 0 == $woocommerce_loop['loop'] % $woocommerce_loop['columns'] )
 				do_action( 'woocommerce_before_shop_loop_item_title' ); 
 			?>
 		</div>
-		<div class="medium-7 large-7 columns product-info">
+		<div class="medium-5 medium-offset-1 large-7 columns product-info">
 		
 			<img class="subrosa-logo" src="<?php echo get_stylesheet_directory_uri();?>/assets/img/logo-small.png">
 			<?php 

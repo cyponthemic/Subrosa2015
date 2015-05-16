@@ -14,7 +14,7 @@
 	</div>
 	<div  class="row">
 			
-		<div class="entry-content small-12 medium-8 large-4 large-offset-1 columns">
+		<div class="entry-content small-12 medium-6 large-4 large-offset-1 columns">
 			<p>
 			From the Old World of Bordeaux to the New World of Napa,<br>
 			<i>Winemaker,</i> <br>
@@ -31,7 +31,7 @@
 <!-- /* SUBROSA THE LABEL */ -->
 <section  id="the-label" class="page">
 	<div class="row">
-		<div class="title right large-5 columns">
+		<div class="title right medium-5 large-5 columns">
 			<img id="the-label-fix" class="heading-image right" src="<?php echo get_stylesheet_directory_uri() ;?>/assets/img/SubRosa_Label_Final.png">
 			<img class="heading" src="<?php echo get_stylesheet_directory_uri() ;?>/assets/titles/label.png">
 			<h1 class="entry-title">The label</h1>
@@ -39,11 +39,11 @@
 	</div>
 	<div  class="row">
 			
-		<div class="entry-content right medium-8 large-4 large-offset-1 columns">
+		<div class="entry-content right medium-5 large-4 large-offset-1 columns">
 			<p>
 			SubRosa is latin for <i>under the rose</i>. In ancient times, a rose was hung over the table as a mark of secrecy.<br>
 			What was said or happened around the table, stayed at the table.<br>
-			The SubRosa sketch was conceptualised by Adam’s imagination and drawn by friend and artist Janette Lucas. (<a href="http://www.janettelucas.com/">janettelucas.com</a>)
+			The SubRosa sketch was conceptualised by Adam’s imagination and drawn by friend and artist <a href="http://www.janettelucas.com/">Jannet Lucas</a>
 			<p>
 		</div>
 	</div>
@@ -52,7 +52,7 @@
 <!-- /* SUBROSA WINEMAKER */ -->
 <section id="winemaker" class="page">
 	<div class="row">
-		<div class="title  small-12 large-3 columns">
+		<div class="title  small-12 medium-6 large-3 columns">
 			<img class="heading-image" src="<?php echo get_stylesheet_directory_uri() ;?>/assets/img/adamlouder.jpg">
 			<img class="heading" src="<?php echo get_stylesheet_directory_uri() ;?>/assets/titles/winemaker.png">
 			<h1 class="entry-title">Winemaker</h1>
@@ -60,7 +60,7 @@
 				<span class="bold-line">Adam Louder</span><br> grew up in the Grampians surrounded by stunning sunsets, abundant native fauna and vines. It was a part-time job while still at school at the local award-winning winery, Bests of Great Western, that ignited a love affair with creating fine wine.
 			<p>
 		</div>
-		<div class="paragraph large-offset-1 large-8 columns">
+		<div class="paragraph large-offset-1 medium-6 large-8 columns">
 			Adam joined forces with one of Australia’s most visionary winemakers Trevor Mast at Mount Langi Ghiran in 1998. This partnership was one of master and apprentice. Trevor shared his extensive knowledge, passion and innovative ideas as Adam actively absorbed every word, phrase and action.<br><br>
 			 
 			Thirsty for more knowledge and experience, Adam travelled to the Napa Valley at 20 to work at Chimney Rock where he learnt to manage and lead a team through harvest.<br><br>
@@ -79,7 +79,7 @@
 <!-- /* SUBROSA OUR WINES */ -->
 <section id="our-wines" class="page">
 <div class="row">
-	<div class="title small-8 small-centered large-3 large-centered columns">
+	<div class="title small-8 medium-3 medium-centered small-centered large-3 large-centered columns">
 		<img class="heading" src="<?php echo get_stylesheet_directory_uri() ;?>/assets/titles/wines.png">
 		<h1 class="entry-title">About us</h1>
 	</div>
@@ -110,14 +110,14 @@
 </section>
 <section id="news-feed" class="page">
 	<div class="row">
-		<div class="title large-3 columns">
+		<div class="title medium-5 large-3 columns">
 			<img class="heading-image" src="<?php echo get_stylesheet_directory_uri() ;?>/assets/img/adamlouder.jpg">
 			<img class="heading" src="<?php echo get_stylesheet_directory_uri() ;?>/assets/titles/news.png">
 			<h1 class="entry-title">News Feed</h1>
 			<p>
 				<span class="bold-line">Follow us on instagram</span><br>
 				<li class="fa fa-instagram" style="display:inline-block; color:black !important;">
-						<a style="display:inline-block; color:black !important;" href="https://instagram.com/subrosawine">@Subrosawine</a>
+						<a style="display:inline-block; color:black !important;" href="https://instagram.com/subrosawine">@subrosawine</a>
 				</li>
 				<span class="bold-line">Join our mailing list</span><br>
 				<!--
@@ -128,7 +128,7 @@ Name<br>
 			<p>
 			<?php echo do_shortcode( "[mc4wp_form]" ) ?>
 		</div>
-		<div class="  large-9 columns">
+		<div class=" medium-7 large-9 columns">
 			<?php juicer_feed('name=subrosa'); ?>
 		</div>
 	</div>

@@ -1,5 +1,18 @@
+@media #{$medium-only} { 
 
-
+section#the-label {
+  margin-top: -250px;
+}
+section#winemaker {
+  margin-top: 100px;
+}
+.title.small-12.medium-6.large-3.columns{
+	margin-top: -110px;
+}
+.medium-5.medium-offset-1.large-7.columns.product-info{
+	float: left;
+}
+}
 @media #{$large-up} { 
 	section.container {
   padding-top: 70px;
@@ -193,6 +206,9 @@ section.page{
 	 	  background: white;
  	}
 
+}
+li.feed-item.juicer.image-post.juicer {
+  display: none;
 }
 .juicer-feed.white li.feed-item{
 	 	padding-top: 0px !important;

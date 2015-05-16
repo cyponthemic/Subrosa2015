@@ -40,7 +40,7 @@
 	.fixxed{position: fixed; z-index:99999;}
 	</style>
 	<div id="skrollr-body">
-	<nav class="tab-bar show-for-small-only fixxed" style="z-index:99999; width:100%">
+	<nav class="tab-bar hide-for-large-up fixxed" style="z-index:99999; width:100%">
 		<section class="left-small fixxed">
 			<a class="left-off-canvas-toggle menu-icon" href="#"><span></span></a>
 		</section>

@@ -1,4 +1,4 @@
-<div class=" contain-to-grid show-for-large-only" style="position:fixed; z-index:99999;">
+<div class=" contain-to-grid show-for-large-up" style="position:fixed; z-index:99999;">
     <nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: large">
         
         <section class="top-bar-section">
