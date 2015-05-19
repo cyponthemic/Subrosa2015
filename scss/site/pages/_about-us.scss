@@ -184,6 +184,17 @@ section.page{
   font-weight: 800;
   font-size: 15px;
 }
+
+@media #{$small-only} {
+div#mc4wp-form-1 {
+  margin-bottom: 50px !important;
+  max-width: 190px;
+  margin: auto;
+}
+#news-feed .title.medium-5.large-3.columns {
+  text-align: center;
+}
+}
 @media #{$large-up} {
 	ul.juicer-feed.white.loaded {
 		margin-top: 220px;
