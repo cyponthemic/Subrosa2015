@@ -43,7 +43,7 @@
 			<p>
 			SubRosa is latin for <i>under the rose</i>. In ancient times, a rose was hung over the table as a mark of secrecy.<br>
 			What was said or happened around the table, stayed at the table.<br>
-			The SubRosa sketch was conceptualised by Adam’s imagination and drawn by friend and artist <a href="http://www.janettelucas.com/">Jannet Lucas</a>
+			The SubRosa sketch was conceptualised by Adam’s imagination and drawn by friend and artist <a target="_blank" href="http://www.janettelucas.com/">Jannette Lucas</a>
 			<p>
 		</div>
 	</div>
@@ -115,11 +115,12 @@
 			<img class="heading" src="<?php echo get_stylesheet_directory_uri() ;?>/assets/titles/news.png">
 			<h1 class="entry-title">News Feed</h1>
 			<p>
-				<span class="bold-line">Follow us on instagram</span><br>
+				<span class="bold-line" style="margin-bottom:0px;">Follow us on instagram</span><br>
 				<li class="fa fa-instagram" style="display:inline-block; color:black !important;">
-						<a style="display:inline-block; color:black !important;" href="https://instagram.com/subrosawine">@subrosawine</a>
+						<a style="display:inline-block; color:black !important;" target="_blank" href="https://instagram.com/subrosawine">@subrosawine</a>
 				</li>
-				<span class="bold-line">Join our mailing list</span><br>
+				<br>
+				<span class="bold-line" style="margin-bottom:0px;">Join our mailing list</span><br>
 				<!--
 Name<br>
 				Email<br>

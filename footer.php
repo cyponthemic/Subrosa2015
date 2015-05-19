@@ -9,7 +9,7 @@
 			// ]]></script>
 	</li>
 	<li class="fa fa-instagram" style="display:inline-block; color:black !important;">
-	<a href="https://instagram.com/subrosawine">@Subrosawine</a>
+	<a target="_blank" href="https://instagram.com/subrosawine">@subrosawine</a>
 	</li>
 </div>
 <footer class="row">
