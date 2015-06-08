@@ -111,7 +111,7 @@
 <section id="news-feed" class="page">
 	<div class="row">
 		<div class="title medium-5 large-3 columns">
-			<img class="heading-image" src="<?php echo get_stylesheet_directory_uri() ;?>/assets/img/news-img.jpg">
+			<img class="heading-image" src="<?php echo get_stylesheet_directory_uri() ;?>/assets/img/news-img.JPG">
 			<img class="heading" src="<?php echo get_stylesheet_directory_uri() ;?>/assets/titles/news.png">
 			<h1 class="entry-title">News Feed</h1>
 			<p>
