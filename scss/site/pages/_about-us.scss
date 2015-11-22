@@ -131,6 +131,32 @@ section.page{
 		}
 	}
 }
+#the-reviews{
+	margin-top: 150px;
+	.title{
+		.heading{
+			margin-bottom: 0px;
+			max-width: 220px;
+			@media #{$large-up} { 
+			position: absolute;
+			top: 35px;
+			left: 235px;
+			z-index: 100;
+			}
+		}
+		.heading-image{
+			max-width: 250px;
+			  margin-bottom: 0px;
+			 float: right;
+			@media #{$large-up} { 
+			float: left;
+			}
+		}
+		p {
+			font-size: 14px;
+		}
+	}
+}
 #news-feed{
 	margin-top: 150px;
 	.title{
@@ -141,6 +167,7 @@ section.page{
 			position: absolute;
 			top: 35px;
 			left: 235px;
+			z-index: 100;
 			}
 		}
 		.heading-image{

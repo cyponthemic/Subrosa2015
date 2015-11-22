@@ -108,6 +108,51 @@
 	
 </div>
 </section>
+
+<section id="the-reviews" style="display:none;" class="page">
+<style>
+body.logged-in #the-reviews{
+	display: block !important;
+}
+</style>
+ <div class="row">
+		<div class="title medium-5 large-3 columns">
+			<img class="heading-image" src="<?php echo get_stylesheet_directory_uri() ;?>/assets/img/reviews.jpg">
+			<img class="heading" src="<?php echo get_stylesheet_directory_uri() ;?>/assets/titles/reviews.png">
+			<h1 class="entry-title">The reviews</h1>
+			
+		</div>
+<div class="medium-7 large-8 columns" role="main">
+	<div class="spacer show-for-medium-up" style="height:200px;">&nbsp;</div>
+	<?php if ( have_posts() ) : ?>
+
+		<?php do_action( 'foundationpress_before_content' ); ?>
+
+		<?php while ( have_posts() ) : the_post(); ?>
+			<?php get_template_part( 'content', get_post_format() ); ?>
+		<?php endwhile; ?>
+
+		<?php else : ?>
+			<?php get_template_part( 'content', 'none' ); ?>
+
+		<?php do_action( 'foundationpress_before_pagination' ); ?>
+
+	<?php endif;?>
+
+
+
+	<?php if ( function_exists( 'foundationpress_pagination' ) ) { foundationpress_pagination(); } else if ( is_paged() ) { ?>
+		<nav id="post-nav">
+			<div class="post-previous"><?php next_posts_link( __( '&larr; Older posts', 'FoundationPress' ) ); ?></div>
+			<div class="post-next"><?php previous_posts_link( __( 'Newer posts &rarr;', 'FoundationPress' ) ); ?></div>
+		</nav>
+	<?php } ?>
+
+	<?php do_action( 'foundationpress_after_content' ); ?>
+
+	</div>
+
+</div> </section>
 <section id="news-feed" class="page">
 	<div class="row">
 		<div class="title medium-5 large-3 columns">
@@ -130,7 +175,10 @@ Name<br>
 			<?php echo do_shortcode( "[mc4wp_form]" ) ?>
 		</div>
 		<div class=" medium-7 large-9 columns">
-			<?php juicer_feed('name=subrosa'); ?>
+			
+
+				<?php juicer_feed('name=subrosa'); ?>
+			
 		</div>
 	</div>
 	
