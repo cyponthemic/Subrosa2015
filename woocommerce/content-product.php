@@ -36,7 +36,17 @@ if ( 0 == ( $woocommerce_loop['loop'] - 1 ) % $woocommerce_loop['columns'] || 1 
 	$classes[] = 'first';
 if ( 0 == $woocommerce_loop['loop'] % $woocommerce_loop['columns'] )
 	$classes[] = 'last';
+
 ?>
+<?php
+if ($woocommerce_loop['loop'] % 2 != 0) {
+   	/* Open the row */
+   echo '<div class="row">';
+   /* echo 'OPEN'; */
+   
+}
+?>
+
 <div <?php post_class( $classes.' small-12 large-6 left product-container columns'); ?>>
 	<div class="row">
 		<div class="medium-5 large-5 thumb-container columns">
@@ -91,3 +101,12 @@ if ( 0 == $woocommerce_loop['loop'] % $woocommerce_loop['columns'] )
 		?>
 	</div>
 </div>
+
+<?php
+if ($woocommerce_loop['loop'] % 2 == 0) {
+   	/* Open the row */
+   echo '</div><div class="row">';
+   /* echo 'CLOSE'; */
+   
+}
+?>

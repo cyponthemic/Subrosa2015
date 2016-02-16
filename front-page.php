@@ -84,9 +84,9 @@
 		<h1 class="entry-title">About us</h1>
 	</div>
 </div>
-<div class="row">
+
 	
-		
+	<!-- LOOP START -->	
 	<?php
 		$args = array(
 			'post_type' => 'product',
@@ -95,6 +95,7 @@
 		$loop = new WP_Query( $args );
 		if ( $loop->have_posts() ) {
 			while ( $loop->have_posts() ) : $loop->the_post();
+			    
 				woocommerce_get_template_part( 'content', 'product' );
 			endwhile;
 		} else {
@@ -102,11 +103,11 @@
 		}
 		wp_reset_postdata();
 	?>
-
+	<!-- LOOP END -->
 
 	
 	
-</div>
+
 </section>
 
 <section id="the-reviews" style="display:none;" class="page">
