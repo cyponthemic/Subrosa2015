@@ -123,7 +123,7 @@ section.page{
 		margin-bottom: 50px;
 		@media #{$large-up} {	  min-height: 400px;
 			
-			margin-top: 200px;
+			/* margin-top: 200px; */
 			-webkit-column-count: 3;
 		-moz-column-count: 3;
 		column-count: 3;
