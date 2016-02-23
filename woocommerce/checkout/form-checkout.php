@@ -57,3 +57,4 @@ $get_checkout_url = apply_filters( 'woocommerce_get_checkout_url', WC()->cart->g
 </form>
 
 <?php do_action( 'woocommerce_after_checkout_form', $checkout ); ?>
+<?php get_footer( ); ?>
